@@ -1,0 +1,140 @@
+*{
+	text-align: left;
+}
+/* .toright{
+	position: absolute;
+	left:75%;
+	right:0%;
+	top:50%;
+}	 */
+ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+	background-color: #333;
+	position: relative;
+	left: 0px;
+	right:500px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li:hover {
+    background-color: #111;
+}
+
+ /* p {
+    color: white;
+	font-family: Georgia, Garamond, serif;
+  } */
+  
+#futureplan{
+    font-family: "Serif", italic;
+	text-decoration: underline;
+	text-transform: uppercase;
+	color: white;
+}
+
+
+p.para1{
+	color: hsl(0, 100%, 90%);
+    font-weight: bold;
+}
+
+p.para2{
+	color: hsl(0, 100%, 90%);
+    font-weight: bold;
+}
+
+p.para3{
+	color: hsl(0, 100%, 90%);
+    font-weight: bold;
+}
+
+#background{
+	font-family: "Serif", italic;
+	text-decoration: underline;
+	text-transform: uppercase;
+	color: white;
+}
+
+body {
+	color: white;
+	/*font-style: italic;*/
+	background-image: url("background1.jpg");
+}
+
+#interests{
+	font-family: "Serif", italic;
+	text-decoration: underline;
+	text-transform: uppercase;
+	color: white;
+}
+
+h1{
+	text-transform: uppercase;
+	color: hsl(0, 100%, 30%);
+	font-family: "Serif", italic;
+	text-decoration: underline;
+}
+
+.article{
+	    font-weight: bold;
+		text-align:left;
+		
+}
+
+.image1{
+	width:200px;
+	height:200px;
+	border-radius:50%;
+	
+}
+
+.c2{
+	
+	font-family: "Arial", italic;
+}
+
+.c3{
+
+	font-family: "Times New Roman", italic;
+}
+.center{
+	position: relative;
+	left: 28%;
+	color: hsl(0, 100%, 90%);
+	font-weight: bold;
+	font-size: 22px;
+}
+.cen{
+position: relative;
+left: 35%;
+color: hsl(0, 100%, 90%);
+
+}
+.c{
+	position:relative;
+	left:38%;
+	color: hsl(0, 100%, 90%);
+	font-weight: bold;
+	font-size: 22px;
+
+}
+
+
+#dis{
+	position: relative;
+	left:17%;
+}

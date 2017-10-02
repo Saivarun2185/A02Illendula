@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+        <head>
+                <link rel="stylesheet" type="text/css" href="Illendula_Saivarun.css">
+                <title>Saivarun</title>
+        </head>
+        <body>
+                <div>
+                        <ul class="a1">
+                                        <li><a>AvgTemperature</a></li>
+                                <li><a href="Illendula_Saivarun.html">Home</a></li>
+                                <li><a href="Illendula_Saivarun1.html">Temperature</a></li>
+                                <li><a href="Illendula_Saivarun2.html">Contact</a></li>
+                        </ul>
+                </div>
+                <div class="c">
+        <p>
+                Choose a country:
+          <span>
+                
+                <select> 
+                        <option value="Select a country">Select a country</option>  
+                        <option value="India">India</option>
+                        <option value="Australia">Australia</option>
+                        <option value="Canada">Canada</option>
+                        <option value="USA">USA</option>
+                        <option value="China">China</option>
+                </select>
+                                
+          </span></p></div>
+        
+               
+                <table class="center">   
+                        
+                  <tr>
+                       <td>  Highest recorded Temperature:</td><td><input type="number" id="High" placeholder="Enter Highest temperature"></td>
+                  </tr>        
+                                                      
+                
+                 <tr>    
+                      <td> Lowest recorded Temperature:</td><td><input type="number" id="Low" placeholder="Enter lowest temperature" ></td>
+                 </tr>        
+              
+                 <tr>
+                        <td></td>
+                        <td><button type="button" id="button" value="submit" onclick="calculate()">submit</button></td>
+                </tr>
+              
+             <tr>
+                     <td id="dis"> Average Temperature:</td><td><input type="number" id="res" placeholder="The result will be displayed here"></td> 
+             </tr>  
+                </table>
+                <script src="calculate.js"></script>
+        </body>
+</html>
+
