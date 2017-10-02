@@ -4,7 +4,7 @@ function average(result,result1){
     return a/2;
       
     }
-    function calculate(){
+   function calculate(){
       
       var result =parseFloat($("#High").val());
     var result1 = parseFloat($("#Low").val());
